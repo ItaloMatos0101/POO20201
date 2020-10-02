@@ -1,8 +1,4 @@
-class Main {
-  public static void main(String[] args) {
-    System.out.println("ola mundo");
-  }
-}
+
 package edu.poo;
 class app{
   public static void main(String[] args){
