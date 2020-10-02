@@ -1,0 +1,32 @@
+package laboratorios;
+// importando a biblioteca Scanner para obter dados do usuário
+import java.util.Scanner;
+
+public class Laboratorio01 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        float numero;
+        float resto;
+
+        // solicitando um número para o usuário
+        System.out.print("Digite um número: ");
+        numero = scan.nextFloat();
+
+        // calculando o resto
+
+        /*  Um número é par se o resto da divisão dele por 2 for 0(zero)
+         *  caso o resto seja diferente de 0(zero) o numero é ímpar
+         * */
+        resto = (numero % 2);
+
+        // mostrando se o número é ímpar ou par
+        if (resto == 0){
+            System.out.println("Valor do resto: " + resto);
+            System.out.println("O número "+ numero  + " é par");
+        }else{
+            System.out.println("Valor do resto: " + resto);
+            System.out.println("O número "+ numero + " é ímpar");
+
+        }
+    }
+}
