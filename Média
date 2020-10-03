@@ -1,0 +1,28 @@
+package projetos;
+
+//Biblioteca para usar a função "Scanner"
+import java.util.Scanner;
+    
+public class media {
+    public static void main(String[] args) {
+        
+        Scanner ler = new Scanner(System.in);
+        
+        //Criando as variáveis
+        float n1, n2, n3, media;
+
+        //Pedindo as 3 notas do aluno
+        System.out.println("Digite a primeira nota: ");
+        n1 = ler.nextFloat();
+        System.out.println("Digite a segunda nota: ");
+        n2 = ler.nextFloat();
+        System.out.println("Digite a terceira nota: ");
+        n3 = ler.nextFloat();
+
+        //Efetuando o calculo da média
+        media = (n1 + n2 + n3)/3;
+
+        //Informando o valor da média
+        System.out.println("Sua média é "+media);
+    }
+}
