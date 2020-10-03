@@ -1,7 +1,7 @@
 /*Universidade Estadual do Maranhão
  * Nome: Italo Domingos Rodrigues Matos
  * Disciplina: Programação Orientado a Objetos
- * Programa: Somatória de dois números
+ * Programa: Somatória de dois números - LAB2
  */
 package italo; //chamando o pacote de nome "italo"
 
