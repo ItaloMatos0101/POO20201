@@ -1,2 +1,2 @@
 # POO20201
-Grupo 6 - Laboratório 2
+Grupo 5 - Laboratório 2
