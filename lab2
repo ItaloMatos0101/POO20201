@@ -1,0 +1,115 @@
+public class Variaveis1 {
+	
+	public static void main(String[] args) {
+		int valorDado;
+		valorDado = 200;
+
+		int dado = 200;
+
+		int total;
+		int nota4;
+		int saldoContaBancaria;
+		int treinamentoNivel2;
+	}
+
+}
+
+public class Variaveis2 {
+    
+    public static void main(String[] args) {
+        int variavel;
+        System.out.println(variavel);
+        
+        variavel = 50;
+        System.out.println(variavel);
+        
+        int outraVariavel = 100;
+        System.out.println(outraVariavel);
+        
+        variavel = outraVariavel;
+        System.out.println(variavel);
+        
+        outraVariavel = 200;
+        System.out.println(outraVariavel);
+        
+
+        System.out.println(variavel);
+    }
+}
+
+Boa noite
+
+---
+
+public class Variaveis3 {
+
+	public static void main(String[] args) {
+		byte numeroDeLetrasDoIngles = 26;
+		short pesEmUmaMilha = 5283;
+		int milhasParaSol = 92960000;
+		long dividaNacional = 18100000000000L;
+
+		float milhasEmUmaMaratona = 26.2f;
+		double larguraAtomoEmMetros = 0.0000000001d;
+
+		char uRegular = 'U';
+		char uAcentuado = '\u00DA'; // Ú
+
+		boolean java = true;
+	}
+
+}
+
+---
+
+public class Variaveis3 {
+
+	public static void main(String[] args) {
+		byte numeroDeLetrasDoIngles = 26;
+		short pesEmUmaMilha = 5283;
+		int milhasParaSol = 92960000;
+		long dividaNacional = 18100000000000L;
+
+		float milhasEmUmaMaratona = 26.2f;
+		double larguraAtomoEmMetros = 0.0000000001d;
+
+		char uRegular = 'U';
+		char uAcentuado = '\u00DA'; // Ú
+
+		boolean java = true;
+	}
+
+}
+
+---
+
+public class Variaveis5 {
+      public static void main(String[] args) {
+        // tipos primitivos sao armazenados por valor
+        int primeiroValor= 100;
+        int outroValor= primeiroValor;
+        primeiroValor= 50;
+        System.out.println(String.format("%s, %s", primeiroValor, outroValor));
+    }
+}
+
+---
+
+public class Variaveis6 {
+
+	public static void main(String[] args) {
+		// operadores de atribuicao composta
+		int valor = 50;
+		valor -= 5;
+		System.out.println(valor); // 45
+
+		int resultado = 100;
+		System.out.println(resultado);
+
+		int valor1= 5;
+		int valor2 = 10;
+		resultado /= valor1 * valor2; // 5 * 10 = 50 -> 100 / 50 = 2
+		System.out.println(resultado);
+	}
+
+}
